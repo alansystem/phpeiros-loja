@@ -8,10 +8,16 @@
     $preco = $_POST["preco"];
     $descricao = $_POST["descricao"];
     $categoria_id = $_POST["categoria_id"];
+    if(array_key_exists('usado', $_POST)){
+        $usado = 1;
+    } else {
+        $usado = 0;
+    }
+
 
     $conexao = mysqli_connect('localhost', 'root', '', 'loja');
 
-    if (insereProduto($conexao, $nome, $preco, $descricao, $categoria_id)){ ?>
+    if (insereProduto($conexao, $nome, $preco, $descricao, $categoria_id, $usado)){ ?>
         <p class="text-success">O produto <?= $nome; ?> foi adicionado com o preço de R$<?= $preco; ?> !</p>
     <?php   }else {
         $msg = mysqli_error($conexao);

@@ -8,23 +8,30 @@
 ?>
 
 <h2 class="h2 text-light">Formulário de produto</h2>
-<div class="container">
+<div class="container ">
 <form action="adiciona-produto.php" method="post">
-    <table class="table">
+    <table class="table text-light">
         <tr>
-            <td class="text-light">Nome</td>
+            <td>Nome</td>
             <td><input  class="form-control" type="text" name="nome" autofocus></td>
         </tr>
         <tr>
-            <td class="text-light">Preço</td>
+            <td>Preço</td>
             <td><input class="form-control" type="number" name="preco"></td>
         </tr>
         <tr>
-            <td class="text-light">Descrição</td>
+            <td>Descrição</td>
             <td><textarea class="form-control" name="descricao"></textarea></td>
         </tr>
         <tr>
-            <td class="text-light">Categoria</td>
+            <td></td>
+            <td>
+                <input type="checkbox" value="1" name="usado">
+                <label >Usado</label>
+            </td>
+        </tr>
+        <tr>
+            <td>Categoria</td>
             <td>
                 <select class="browser-default custom-select" name="categoria_id">
                 <?php foreach ($categorias as $categoria):?>
@@ -35,7 +42,8 @@
             </td>
         </tr>
         <tr>
-            <td><input class="btn btn-primary " type="submit" value="Cadastrar"></td>
+            <td></td>
+            <td><input class="btn btn-primary float-right" type="submit" value="Cadastrar"></td>
         </tr>
 
     </table>
