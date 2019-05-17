@@ -5,6 +5,7 @@
 
     $categorias = listaCategorias($conexao);
 
+
 ?>
 
 <h2 class="h2 text-light">Formulário de produto</h2>
