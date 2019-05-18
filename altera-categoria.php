@@ -1,13 +1,12 @@
 <?php
 include ("cabecalho.php");
 include ("conecta.php");
-include ("banco-produto.php");
 include ("banco-categoria.php");
 
 $id = $_POST["id"];
-$categoria = buscaCategoria($conexao, $id);
-$nome = $categoria['nome'];
+$nome = $_POST["nome"];
 
+$conexao = mysqli_connect('localhost', 'root', '', 'loja');
 
 if (alteraCategoria($conexao, $id, $nome)){ ?>
     <p class="text-success">A categoria <?= $nome; ?> foi alterada!</p>

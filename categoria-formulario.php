@@ -1,34 +1,27 @@
 <?php
 include ("cabecalho.php");
 include ("conecta.php");
-include ("banco-produto.php");
 include ("banco-categoria.php");
+include ("banco-produto.php");
 ?>
 
-<table class="table table-bordered table-striped table-dark">
-    <?php
-    $categorias = listaCategorias($conexao);
-    foreach ($categorias as $categoria):
-        ?>
-        <tr>
-            <td class="align-middle"><?=$categoria['id'];?></td>
-            <td class="align-middle"><?=$categoria['nome'];?></td>
-            <td class="text-center">
-                <form action="altera-categoria.php?id=<?=$categoria['id'];?>" method="post">
-                    <input type="hidden" name="id" value="<?=$categoria['id'];?>">
-                    <button class="btn btn-primary">Alterar</button>
-                </form>
-            </td>
-            <td class="text-center">
-                <form action="remove-categoria.php?id=<?=$categoria['id'];?>" method="post">
-                    <input type="hidden" name="id" value="<?=$categoria['id'];?>">
-                    <button class="btn btn-danger">Remover</button>
-                </form>
-            </td>
-        </tr>
-    <?php
-    endforeach;
-    ?>
-</table>
+<h2 class="h2 text-light">Formulário de categoria</h2>
+<div class="container ">
+    <form action="adiciona-categoria.php" method="post">
+        <table class="table text-light">
+            <tr>
+                <td>Nome</td>
+                <td><input  class="form-control" type="text" name="nome" autofocus></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <button class="btn btn-primary float-right" type="submit">Adicionar</button>
+                </td>
+            </tr>
+
+        </table>
+    </form>
+</div>
 <?php include ("rodape.php"); ?>
 

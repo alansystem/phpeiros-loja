@@ -5,53 +5,24 @@ include ("banco-categoria.php");
 include ("banco-produto.php");
 
 $id = $_GET['id'];
-$produto = buscaProduto($conexao, $id);
-$categorias = listaCategorias($conexao);
-$usado = $produto['usado'] ? "checked = 'checked'" : "";
-
+$categoria = buscaCategoria($conexao, $id);
+$nome = $categoria['nome'];
 
 
 ?>
 
-<h2 class="h2 text-light">Alterar produto</h2>
+<h2 class="h2 text-light">Alterar categoria</h2>
 <div class="container ">
-    <form action="altera-produto.php" method="post">
+    <form action="altera-categoria.php" method="post">
         <input type="hidden" name="id" value="<?=$id?>">
         <table class="table text-light">
             <tr>
+                <td>ID</td>
+                <td><input  class="form-control" type="text" name="id"  value="<?=$categoria['id']?>"></td>
+            </tr>
+            <tr>
                 <td>Nome</td>
-                <td><input  class="form-control" type="text" name="nome" autofocus value="<?=$produto['nome']?>"></td>
-            </tr>
-            <tr>
-                <td>Preço</td>
-                <td><input class="form-control" type="number" name="preco" value="<?=$produto['preco']?>"></td>
-            </tr>
-            <tr>
-                <td>Descrição</td>
-                <td><textarea class="form-control" name="descricao"><?=$produto['descricao']?></textarea></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td>
-                    <input type="checkbox" value="1" name="usado" <?=$usado;?> >
-                    <label >Usado</label>
-                </td>
-            </tr>
-            <tr>
-                <td>Categoria</td>
-                <td>
-                    <select class="browser-default custom-select" name="categoria_id">
-                        <?php foreach ($categorias as $categoria):
-                            $categoriaSelecionada = $produto['categoria_id'] == $categoria['id'] ? "selected='selected'" : "";
-                            ?>
-                            <option class="" type="radio" name="categoria_id"
-                                    value="<?=$categoria['id']?>"
-                                    <?=$categoriaSelecionada?>>
-                                    <?=$categoria['nome']?>
-                            </option>
-                        <?php endforeach;?>
-                    </select>
-                </td>
+                <td><input  class="form-control" type="text" name="nome"  value="<?=$categoria['nome']?>"></td>
             </tr>
             <tr>
                 <td></td>

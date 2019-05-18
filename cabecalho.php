@@ -10,15 +10,32 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
     <a class="navbar-brand" href="index.php">Minha Loja</a>
 
-    <div class="collapse navbar-collapse" id="corNavbar01">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-                <a class="nav-link" href="produto-formulario.php">Adicionar Produto</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="produto-lista.php">Listar Produtos</a>
-            </li>
-        </ul>
+    <div class="nav-pills ">
+        <!-- Example single danger button -->
+        <div class="btn-group">
+            <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Produtos
+            </button>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="produto-formulario.php">Adicionar</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="produto-lista.php">Listar</a>
+            </div>
+        </div>
+
+        <!-- Example single danger button -->
+        <div class="btn-group">
+            <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Categorias
+            </button>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="categoria-formulario.php">Adicionar</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="categoria-lista.php">Listar</a>
+            </div>
+        </div>
+
+
 
     </div>
 </nav>
