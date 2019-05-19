@@ -5,7 +5,7 @@ include ("banco-produto.php");
 include ("banco-categoria.php");
 ?>
 
-<table class="table table-bordered table-striped table-dark">
+<table class="table table-bordered table-striped">
     <?php
     $categorias = listaCategorias($conexao);
     foreach ($categorias as $categoria):
@@ -16,7 +16,7 @@ include ("banco-categoria.php");
             <td class="text-center">
                 <form action="categoria-altera-formulario.php?id=<?=$categoria['id'];?>" method="post">
                     <input type="hidden" name="id" value="<?=$categoria['id'];?>">
-                    <button class="btn btn-primary">Alterar</button>
+                    <button class="btn btn-warning">Alterar</button>
                 </form>
             </td>
             <td class="text-center">
@@ -30,5 +30,6 @@ include ("banco-categoria.php");
     endforeach;
     ?>
 </table>
+<a href="categoria-formulario.php"><button class="btn btn-primary float-left">+</button></a>
 <?php include ("rodape.php"); ?>
 

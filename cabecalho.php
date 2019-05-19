@@ -5,10 +5,10 @@
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/loja.css" rel="stylesheet">
 </head>
-<body class="bg-dark">
+<body class="bg-light">
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-    <a class="navbar-brand" href="index.php">Minha Loja</a>
+<nav class="navbar navbar-expand-lg bg-dark">
+    <a class="navbar-brand text-light" href="index.php">Minha Loja</a>
 
     <div class="nav-pills ">
         <!-- Example single danger button -->

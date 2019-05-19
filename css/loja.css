@@ -7,3 +7,19 @@ body{
     margin: 40px 15px;
     text-align: center;
 }
+
+.linhacinza{
+    /*background-color: rgb(235,236,237);*/
+    background-color: #c6c8ca;
+}
+
+
+ul.list-group.list-group-striped li:nth-of-type(odd){
+    background: blue;
+}
+ul.list-group.list-group-striped li:nth-of-type(even){
+    background: purple;
+}
+ul.list-group.list-group-hover li:hover{
+    background: red;
+}

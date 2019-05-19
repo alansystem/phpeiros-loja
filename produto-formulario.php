@@ -8,10 +8,10 @@
 
 ?>
 
-<h2 class="h2 text-light">Formulário de produto</h2>
+<h2>Formulário de produto</h2>
 <div class="container ">
 <form action="adiciona-produto.php" method="post">
-    <table class="table text-light">
+    <table class="table">
         <tr>
             <td>Nome</td>
             <td><input  class="form-control" type="text" name="nome" autofocus></td>

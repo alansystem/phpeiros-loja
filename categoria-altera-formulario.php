@@ -11,7 +11,7 @@ $nome = $categoria['nome'];
 
 ?>
 
-<h2 class="h2 text-light">Alterar categoria</h2>
+<h2>Alterar categoria</h2>
 <div class="container ">
     <form action="altera-categoria.php" method="post">
         <input type="hidden" name="id" value="<?=$id?>">
@@ -27,11 +27,12 @@ $nome = $categoria['nome'];
             <tr>
                 <td></td>
                 <td>
-                    <button class="btn btn-primary float-right" type="submit">Alterar</button>
+                    <button class="btn btn-warning float-right" type="submit">Alterar</button>
                 </td>
             </tr>
 
         </table>
+
     </form>
 </div>
 <?php include ("rodape.php"); ?>

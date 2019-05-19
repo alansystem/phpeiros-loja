@@ -10,7 +10,7 @@
         <p class="alert-success" >Produto apagado com sucesso!</p >
     <?php endif; ?>
 
-    <table class="table table-bordered table-striped table-dark">
+    <table class="table table-bordered table-striped ">
 <?php
     $produtos = listaProdutos($conexao);
     foreach ($produtos as $produto):
@@ -21,9 +21,15 @@
         <td class="align-middle"><?=substr($produto['descricao'],0,50).'...';?></td>
         <td class="align-middle"><?=$produto['categoria_nome'];?></td>
         <td class="text-center">
+            <form action="visualiza-produto.php?id=<?=$produto['id']?>" method="post">
+                <input type="hidden" name="id" value="<?=$produto['id'];?>">
+                <button class="btn btn-info">Visualizar</button>
+            </form>
+        </td>
+        <td class="text-center">
             <form action="produto-altera-formulario.php?id=<?=$produto['id'];?>" method="post">
                 <input type="hidden" name="id" value="<?=$produto['id'];?>">
-                <button class="btn btn-primary">Alterar</button>
+                <button class="btn btn-warning">Alterar</button>
             </form>
         </td>
         <td class="text-center">
@@ -37,5 +43,6 @@
     endforeach;
 ?>
     </table>
+<a href="produto-formulario.php"><button class="btn btn-primary float-left">+</button></a>
 <?php include ("rodape.php"); ?>
 
