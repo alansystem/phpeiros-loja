@@ -1,7 +1,7 @@
 # phpeiros-loja
 
-> Um projeto para evoluirmos como um time e compartilhar conhecimento ✨
-> Este time foi formado a partir do grupo [A.P.D.A](https://www.facebook.com/groups/osadpa/) no facebook! :heavy_check_mark:
+> Um projeto para evoluirmos como um time e compartilhar conhecimento :smiley: ✨
+> Este time foi formado a partir do grupo [A.P.D.A](https://www.facebook.com/groups/osadpa/) no facebook! :heavy_check_mark: 
 
 [![](https://img.shields.io/badge/phpeiros-lets%20learn%20together-brightgreen.svg)](https://github.com/vmnog/phpeiros-loja)
 
@@ -35,7 +35,4 @@ de que uma ferramenta seria interessante do grupo aprender!
 - Pretendo criar um server no discord pra comunicação 
 - Faremos uma documentação do projeto explicando cada função do repositório
 
-_ESTA NÃO É UMA INICIATIVA COM FINS LUCRATIVOS, APENAS EDUCATIVOS_ :books: :pencil2:
-
-## License
-MIT 
+_ESTA NÃO É UMA INICIATIVA COM FINS LUCRATIVOS, APENAS EDUCATIVOS_ :smiley: :books: :pencil2:
