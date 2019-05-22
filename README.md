@@ -30,6 +30,12 @@ de que uma ferramenta seria interessante do grupo aprender!
 - :green_heart: HTML/CSS _(Não precisaria nem ser citado aqui né, but just in case...)_
 - :yellow_heart: JavaScript _(Acho que será necessário mais tarde, mas ainda não temos algo que necessite disso)_
 
+## Como?
+
+- Pretendo criar um server no discord pra comunicação 
+- Faremos uma documentação do projeto explicando cada função do repositório
+
+_ESTA NÃO É UMA INICIATIVA COM FINS LUCRATIVOS, APENAS EDUCATIVOS_ :books: :pencil2:
 
 ## License
 MIT 
