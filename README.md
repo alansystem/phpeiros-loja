@@ -1,19 +1,20 @@
 # phpeiros-loja
 
 > Um projeto para evoluirmos como um time e compartilhar conhecimento ✨
+> Este time foi formado a partir do grupo [A.P.D.A](https://www.facebook.com/groups/osadpa/) no facebook! :heavy_check_mark:
 
-[![](https://img.shields.io/npm/dm/husky.svg?style=flat)](https://www.npmjs.org/package/husky) [![Mac/Linux Build Status](https://img.shields.io/travis/typicode/husky.svg?label=Mac%20OSX%20%26%20Linux)](https://travis-ci.org/typicode/husky) [![Windows Build status](https://img.shields.io/appveyor/ci/typicode/husky/master.svg?label=Windows)](https://ci.appveyor.com/project/typicode/husky)
+[![](https://img.shields.io/badge/phpeiros-lets%20learn%20together-brightgreen.svg)](https://github.com/vmnog/phpeiros-loja)
 
-O projeto `phpeiros` é apenas uma ideia onde todos aprenderíamos a usar diversas tecnologias através da implementação e contribuição neste projeto.
+O projeto `phpeiros` é apenas uma ideia onde todos aprenderíamos a usar diversas tecnologias através da implementação e contribuição neste projeto. 
 então 🐶 _bora aprender juntos!_
 
 ## A ideia
 
-Inicialmente faremos uma loja, e existem infinitas lojas na internet, podemos implementar qualquer funcionalidade nela!
+Inicialmente faremos uma loja :convenience_store:, e existem infinitas lojas na internet, podemos implementar qualquer funcionalidade nela!
 Desde adicionar um produto, até realizar um pagamento por paypal ou sei lá kk (as oportunidades são infinitas)
 
 <p>
-  <a href="https://www.patreon.com/bePatron?c=784328">
+  <a href="#">
     <img src="https://github.com/vmnog/phpeiros-loja/blob/master/github/img/socialpreview.PNG" width="100%">
   </a>
 </p>
@@ -23,22 +24,12 @@ Desde adicionar um produto, até realizar um pagamento por paypal ou sei lá kk 
 Tenho alguns itens que gostaria de aprender e a lista pode ser incrementada conforme um consenso do grupo
 de que uma ferramenta seria interessante do grupo aprender!
 
-- PHP _(Acho que é de interesse geral)_
-- Git/ Github _(Pra gente conseguir desenvolver e aprender essa ferramenta muito útil pra nós Devs)_
-- Bootstrap _(A não ser que você queira fazer o design na mão, é um framework css mt útil também)_
-- HTML/CSS _(Não precisaria nem ser citado aqui né, but just in case...)_
-- JavaScript _(Acho que será necessário mais tarde, mas ainda não temos algo que necessite disso)_
+- :heart: PHP _(Acho que é de interesse geral)_
+- :blue_heart: Git/ Github _(Pra gente conseguir desenvolver e aprender essa ferramenta muito útil pra nós Devs)_
+- :purple_heart: Bootstrap _(A não ser que você queira fazer o design na mão, é um framework css mt útil também)_
+- :green_heart: HTML/CSS _(Não precisaria nem ser citado aqui né, but just in case...)_
+- :yellow_heart: JavaScript _(Acho que será necessário mais tarde, mas ainda não temos algo que necessite disso)_
 
-<p>
-  <a href="https://www.kickstarter.com/projects/leotrieu/build-your-on-demand-startup-for-jobs-and-freelanc?utm_source=typicode&utm_medium=github-husky" target="_blank">
-    <img src="https://i.imgur.com/tBU7RZj.png" height="60px">
-  </a>
-</p>
-
-<p>
-  <a href="https://patreon.com/typicode">Support Husky and have your company logo here ;)</a>
-</p>
 
 ## License
-
-MIT
+MIT 
