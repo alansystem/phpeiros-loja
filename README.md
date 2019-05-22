@@ -14,7 +14,7 @@ Desde adicionar um produto, até realizar um pagamento por paypal ou sei lá kk 
 
 <p>
   <a href="https://www.patreon.com/bePatron?c=784328">
-    <img src="https://github.com/vmnog/phpeiros-loja/blob/master/github/img/socialpreview.PNG" width="50%">
+    <img src="https://github.com/vmnog/phpeiros-loja/blob/master/github/img/socialpreview.PNG" width="100%">
   </a>
 </p>
 
