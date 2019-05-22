@@ -3,9 +3,9 @@
 [![](https://img.shields.io/badge/phpeiros-lets%20learn%20together-brightgreen.svg)](https://github.com/vmnog/phpeiros-loja)
 
 > Um projeto para evoluirmos como um time e compartilhar conhecimento :smiley: ✨
-<br>
 
 > Este time foi formado a partir do grupo A.P.D.A no facebook! :heavy_check_mark: 
+
 
 [**Visit the A.P.D.A group.**](https://www.facebook.com/groups/osadpa/)<br>
 
