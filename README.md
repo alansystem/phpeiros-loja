@@ -15,7 +15,7 @@ Desde adicionar um produto, até realizar um pagamento por paypal ou sei lá kk 
 
 <p>
   <a href="#">
-    <img src="https://github.com/vmnog/phpeiros-loja/blob/master/github/img/socialpreview.PNG" alt="Preview da loja" width="100%">
+    <img src="https://github.com/vmnog/phpeiros-loja/blob/master/github/img/social-preview.PNG" alt="Preview da loja" width="100%">
   </a>
 </p>
 
