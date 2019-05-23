@@ -1,6 +1,6 @@
 # phpeiros-loja
 
-:alien: Entre no nosso discord -> https://discord.gg/94K9XSA
+:alien: [**Entre no nosso discord **](https://discord.gg/94K9XSA)<br>
 
 [![](https://img.shields.io/badge/phpeiros-lets%20learn%20together-brightgreen.svg)](https://github.com/vmnog/phpeiros-loja)
 
