@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a4295fe-35ca-478d-a14d-8420a78fe6dc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/visualiza-produto.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cabecalho.php" beforeDir="false" afterPath="$PROJECT_DIR$/cabecalho.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/categoria-altera-formulario.php" beforeDir="false" afterPath="$PROJECT_DIR$/categoria-altera-formulario.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/categoria-formulario.php" beforeDir="false" afterPath="$PROJECT_DIR$/categoria-formulario.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/categoria-lista.php" beforeDir="false" afterPath="$PROJECT_DIR$/categoria-lista.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/loja.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/loja.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/produto-altera-formulario.php" beforeDir="false" afterPath="$PROJECT_DIR$/produto-altera-formulario.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/produto-formulario.php" beforeDir="false" afterPath="$PROJECT_DIR$/produto-formulario.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/produto-lista.php" beforeDir="false" afterPath="$PROJECT_DIR$/produto-lista.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,29 +12,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/altera-produto.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="673">
-              <caret line="32" selection-start-line="32" selection-end-line="32" selection-end-column="102" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/produto-altera-formulario.php">
+        <entry file="file://$PROJECT_DIR$/produto-formulario.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+            <state relative-caret-position="625">
+              <caret line="25" column="30" lean-forward="true" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -72,12 +44,12 @@
         <option value="$PROJECT_DIR$/categoria-altera-formulario.php" />
         <option value="$PROJECT_DIR$/categoria-lista.php" />
         <option value="$PROJECT_DIR$/categoria-formulario.php" />
-        <option value="$PROJECT_DIR$/produto-formulario.php" />
         <option value="$PROJECT_DIR$/produto-lista.php" />
         <option value="$PROJECT_DIR$/css/loja.css" />
         <option value="$PROJECT_DIR$/visualiza-produto.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/produto-altera-formulario.php" />
+        <option value="$PROJECT_DIR$/produto-formulario.php" />
       </list>
     </option>
   </component>
@@ -93,34 +65,18 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="loja" type="b2602c69:ProjectViewProjectNode" />
-              <item name="loja" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="loja" type="b2602c69:ProjectViewProjectNode" />
-              <item name="loja" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="loja" type="b2602c69:ProjectViewProjectNode" />
-              <item name="loja" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="loja" type="b2602c69:ProjectViewProjectNode" />
-              <item name="loja" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap.js" type="620a8d5e:NestingTreeNode" />
+              <item name="phpeiros-loja" type="b2602c69:ProjectViewProjectNode" />
+              <item name="phpeiros-loja" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -164,17 +120,18 @@
       <workItem from="1558054328494" duration="4860000" />
       <workItem from="1558146075687" duration="5705000" />
       <workItem from="1558203715081" duration="3073000" />
+      <workItem from="1558581008647" duration="1069000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37196000" />
+    <option name="totallyTimeSpent" value="38265000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13432837" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13539445" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -298,13 +255,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/produto-formulario.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/produto-lista.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="825">
@@ -340,13 +290,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/altera-produto.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="673">
@@ -358,6 +301,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
           <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/produto-formulario.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="25" column="30" lean-forward="true" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
         </state>
       </provider>
     </entry>

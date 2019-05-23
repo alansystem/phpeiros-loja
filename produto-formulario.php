@@ -14,15 +14,17 @@
     <table class="table">
         <tr>
             <td>Nome</td>
-            <td><input  class="form-control" type="text" name="nome" autofocus></td>
+            <td>
+                <input  required  class="form-control" type="text" name="nome" autofocus>
+            </td>
         </tr>
         <tr>
             <td>Preço</td>
-            <td><input class="form-control" type="number" name="preco"></td>
+            <td><input required class="form-control" type="number" name="preco"></td>
         </tr>
         <tr>
             <td>Descrição</td>
-            <td><textarea class="form-control" name="descricao"></textarea></td>
+            <td><textarea required class="form-control" name="descricao"></textarea></td>
         </tr>
         <tr>
             <td></td>
